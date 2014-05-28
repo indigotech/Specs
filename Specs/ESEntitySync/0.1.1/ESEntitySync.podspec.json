@@ -1,0 +1,35 @@
+{
+  "name": "ESEntitySync",
+  "version": "0.1.1",
+  "license": "Apache License, Version 2.0",
+  "summary": "ESEntitySync provides entity models sync between iOS devices and Server.",
+  "homepage": "https://github.com/indigotech/ESEntitySync",
+  "authors": {
+    "Marcio Massaki Horoiwa": "marcio.massaki@taqtile.com"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "https://github.com/indigotech/ESEntitySync.git",
+    "tag": "v0.1.1"
+  },
+  "requires_arc": false,
+  "source_files": [
+    "Source/*.{h,m}",
+    "Source/Categories/*.{h,m}"
+  ],
+  "framework": "CoreData",
+  "dependencies": {
+    "JSONKit": [
+      "~> 1.4"
+    ],
+    "UIDeviceAddition": [
+      "~> 1.0"
+    ]
+  },
+  "prefix_header_contents": [
+    "#import <CoreData/CoreData.h>",
+    "#import \"CoreData+ESEntitySync.h\""
+  ]
+}
