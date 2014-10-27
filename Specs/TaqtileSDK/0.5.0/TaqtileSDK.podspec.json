@@ -1,0 +1,31 @@
+{
+  "name": "TaqtileSDK",
+  "version": "0.5.0",
+  "summary": "Library TaqtileSDK to implement shingle on projects",
+  "homepage": "https://github.com/indigotech/shingle-analytics",
+  "license": {
+    "type": "Comercial"
+  },
+  "author": "Taqtile",
+  "source": {
+    "git": "git@github.com:shingle/taqtile-sdk-ios.git",
+    "tag": "0.5.0"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "requires_arc": true,
+  "source_files": "TaqtileSDK/Headers/*.h",
+  "vendored_libraries": "TaqtileSDK/libTaqtileSDK.a",
+  "libraries": "TaqtileSDK",
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/GeotriggerSDK",
+    "OTHER_LDFLAGS": "-framework GeotriggerSDK",
+    "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/TaqtileSDK"
+  },
+  "dependencies": {
+    "GeotriggerSDK": [
+
+    ]
+  }
+}
