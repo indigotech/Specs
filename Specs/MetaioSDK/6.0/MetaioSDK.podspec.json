@@ -1,0 +1,46 @@
+{
+  "name": "MetaioSDK",
+  "version": "6.0",
+  "license": {
+    "type": "Commercial",
+    "text": "License for metaio SDK (Version 22/05/2014) - Copyright (c) 2003-2014 metaio GmbH, 80335 Munich, Germany [METAIO]"
+  },
+  "summary": "The Metaio SDK is a modular framework that includes the capturing component, the sensor interface component, the rendering component, the tracking component and the Metaio SDK interface. The interface provides interaction between the application and the other 4 modular components.",
+  "homepage": "http://www.metaio.com/products/sdk/",
+  "authors": "metaio GmbH",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "https://s3.amazonaws.com/taqtile-libs/metaio-sdk/6.0/ios/MetaioSDK-iOS-6.0.zip"
+  },
+  "requires_arc": false,
+  "frameworks": [
+    "EventKit",
+    "EventKitUI",
+    "CoreImage",
+    "Security",
+    "CFNetwork",
+    "MediaPlayer",
+    "CoreLocation",
+    "CoreMedia",
+    "CoreVideo",
+    "UIKit",
+    "QuartzCore",
+    "AudioToolbox",
+    "OpenGLES",
+    "GLKit",
+    "CoreMotion",
+    "CoreGraphics"
+  ],
+  "weak_frameworks": "AVFoundation",
+  "libraries": [
+    "z",
+    "xml2"
+  ],
+  "public_header_files": "metaioSDK.framework/**/*.h",
+  "vendored_frameworks": "metaioSDK.framework",
+  "xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "METAIOSDK_COMPAT_NO_CPP11_STL_FEATURES"
+  }
+}
