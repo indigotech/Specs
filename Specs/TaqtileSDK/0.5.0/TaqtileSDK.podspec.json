@@ -18,7 +18,7 @@
   "source_files": "TaqtileSDK/Headers/*.h",
   "vendored_libraries": "TaqtileSDK/libTaqtileSDK.a",
   "libraries": "TaqtileSDK",
-  "dendencies": {
+  "dependencies": {
     "GeotriggerSDK": "~> 1.1.0"
   }
 }
