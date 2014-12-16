@@ -18,14 +18,7 @@
   "source_files": "TaqtileSDK/Headers/*.h",
   "vendored_libraries": "TaqtileSDK/libTaqtileSDK.a",
   "libraries": "TaqtileSDK",
-  "xcconfig": {
-    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/GeotriggerSDK",
-    "OTHER_LDFLAGS": "-framework GeotriggerSDK",
-    "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/TaqtileSDK"
-  },
-  "dependencies": {
-    "GeotriggerSDK": [
-
-    ]
+  "dendencies": {
+    "GeotriggerSDK": "~> 1.1.0"
   }
 }
