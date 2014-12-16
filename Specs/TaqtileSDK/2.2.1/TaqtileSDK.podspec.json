@@ -1,6 +1,6 @@
 {
   "name": "TaqtileSDK",
-  "version": "0.7.2",
+  "version": "2.2.1",
   "summary": "Library TaqtileSDK to implement shingle on projects",
   "homepage": "https://github.com/indigotech/shingle-analytics",
   "license": {
@@ -9,7 +9,7 @@
   "authors": ["Taqtile"],
   "source": {
     "git": "https://github.com/shingle/taqtile-sdk-ios.git",
-    "tag": "0.7.2"
+    "tag": "2.2.1"
   },
   "platforms": {
     "ios": null
