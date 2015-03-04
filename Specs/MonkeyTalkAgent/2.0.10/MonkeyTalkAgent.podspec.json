@@ -1,0 +1,45 @@
+{
+  "name": "MonkeyTalkAgent",
+  "version": "2.0.10",
+  "platforms": {
+    "ios": 5.1
+  },
+  "license": {
+    "type": "AGPLv3",
+    "file": "LICENSE.txt"
+  },
+  "summary": "MonkeyTalk automates real, functional interactive tests for iOS apps.",
+  "description": "MonkeyTalk is the world's greatest mobile app testing tool. MonkeyTalk automates real, functional interactive tests for iOS and Android apps - everything from simple \"smoke tests\" to sophisticated data-driven test suites. Native, mobile, and hybrid app, real devices or simulators.",
+  "homepage": "http://www.cloudmonkeymobile.com/monkeytalk",
+  "authors": "Cloud Monkey",
+  "source": {
+    "git": "https://github.com/indigotech/monkeytalk-agent-ios.git",
+    "tag": "2.0.10"
+  },
+  "requires_arc": true,
+  "default_subspec": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "frameworks": [
+        "CFNetwork",
+        "QuartzCore"
+      ],
+      "libraries": [
+        "stdc++.6.0.9",
+        "sqlite3"
+      ],
+      "vendored_libraries": "libMonkeyTalk-2.0.10.a"
+    },
+    {
+      "name": "MediaPlayer",
+      "frameworks": "MediaPlayer",
+      "vendored_libraries": "extralibs/libMonkeyTalkMediaPlayer-2.0.10.a",
+      "dependencies": {
+        "MonkeyTalkAgent/Core": [
+
+        ]
+      }
+    }
+  ]
+}
