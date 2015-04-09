@@ -1,6 +1,6 @@
 {
   "name": "TQGeolocationSDK",
-  "version": "0.0.1",
+  "version": "0.5.0",
   "summary": "Framework TQGeolocation to implement fence monitoring on apps.",
   "homepage": "https://github.com/tq1/br-tq1-geolocation-ios",
   "license": {
@@ -9,15 +9,13 @@
   "authors": ["Taqtile"],
   "source": {
     "git": "https://github.com/tq1/br-tq1-geolocation-ios.git",
-    "tag": "0.0.1"
+    "tag": "0.5.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "SDK/Source/**/*.{swift,m,h}",
-  "vendored_libraries": "TaqtileSDK/libTaqtileSDK.a",
-  "libraries": "TaqtileSDK",
   "dependencies": {
     "FMDBSwift": "~> 0.0.1"
   }
