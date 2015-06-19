@@ -4,7 +4,7 @@
   "summary": "Library that is the middleware between NPC´s Apps and NPC´s services",
   "homepage": "https://github.com/indigotech/br-npc-middleware-lib-java/",
   "license": {
-    "type": "Comercial"
+    "type": "Commercial"
   },
   "authors": {"Taqtile": "contato@taqtile.com"},
   "source": {
