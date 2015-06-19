@@ -16,13 +16,6 @@
   },
   "source_files": "ios_release/**/*.{h,m}",
   "header_mappings_dir": "ios_release",
-  "libraries": [
-    "z",
-    "icucore"
-  ],
-  "frameworks": [
-    "Security"
-  ],
   "dependencies": {
     "J2ObjC": "~> 0.9.7"
   },
