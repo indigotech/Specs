@@ -8,7 +8,7 @@
   },
   "authors": {"Taqtile": "contato@taqtile.com"},
   "source": {
-    "git": "https://github.com/indigotech/br-npc-middleware-lib-java/",
+    "git": "git@github.com:indigotech/br-npc-middleware-lib-java.git",
     "tag": "0.8.0"
   },
   "platforms": {
