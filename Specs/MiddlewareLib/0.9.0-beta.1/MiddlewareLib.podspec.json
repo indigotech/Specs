@@ -1,0 +1,25 @@
+{
+  "name": "MiddlewareLib",
+  "version": "0.9.0-beta.1",
+  "summary": "Library that is the middleware between NPC´s Apps and NPC´s services",
+  "homepage": "https://github.com/indigotech/br-npc-middleware-lib-java/",
+  "license": {
+    "type": "Commercial"
+  },
+  "authors": {"Taqtile": "contato@taqtile.com"},
+  "source": {
+    "git": "https://github.com/indigotech/br-npc-middleware-lib-java/",
+    "tag": "0.9.0-beta.1"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source_files": "ios_release/**/*.{h,m}",
+  "header_mappings_dir": "ios_release",
+  "dependencies": {
+    "J2ObjC": "~> 0.9.7"
+  },
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/J2ObjC/dist/include\""
+  }
+}
