@@ -5,7 +5,7 @@
   "summary": "Modified FMDB version to remove non modular headers (Swift Compatible)",
   "homepage": "",
   "authors": {
-    "Rafael Ring": "rafael.ring@taqtile.com"
+    "August Mueller": "gus@flyingmeat.com"
   },
   "platforms": {
     "ios": null
