@@ -1,0 +1,28 @@
+{
+  "name": "FMDBSwift",
+  "version": "0.0.3",
+  "license": "Apache License, Version 2.0",
+  "summary": "Modified FMDB version to remove non modular headers (Swift Compatible)",
+  "homepage": "",
+  "authors": {
+    "August Mueller": "gus@flyingmeat.com"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "https://github.com/ccgus/fmdb.git",
+    "commit": "43881cfcff4aedf5d8ea4045ab21a8f097ed35fa"
+  },
+  "requires_arc": false,
+  "source_files": [
+    "src/fmdb/FM*.{h,m}"
+  ],
+  "private_header_files": [
+    "src/fmdb/*Private.h"
+  ],
+  "exclude_files": [
+    "src/fmdb.m"
+  ],
+  "libraries": "sqlite3"
+}
