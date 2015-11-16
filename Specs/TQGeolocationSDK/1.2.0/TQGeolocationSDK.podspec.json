@@ -1,0 +1,22 @@
+{
+  "name": "TQGeolocationSDK",
+  "version": "1.2.0",
+  "summary": "SDK for TQG project",
+  "homepage": "https://github.com/tq1/br-tqg-ios",
+  "license": {
+    "type": "Commercial"
+  },
+  "authors": ["Taqtile"],
+  "source": {
+    "git": "https://github.com/tq1/br-tqg-ios.git",
+    "tag": "1.2.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "SDK/Source/**/*.{swift,m,h}",
+  "dependencies": {
+    "FMDBSwift": "~> 0.0.3"
+  }
+}
