@@ -17,7 +17,7 @@
   "source_files": "ios_release/**/*.{h,m}",
   "header_mappings_dir": "ios_release",
   "dependencies": {
-    "J2ObjC101": "1.0.1.1"
+    "J2ObjC": "~> 0.9.7"
   },
   "xcconfig": {
     "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/J2ObjC/dist/include\""
