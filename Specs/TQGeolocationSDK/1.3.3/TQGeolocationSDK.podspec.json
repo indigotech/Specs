@@ -1,0 +1,25 @@
+{
+  "name": "TQGeolocationSDK",
+  "version": "1.3.3",
+  "summary": "Library TQGeolocationSDK",
+  "homepage": "https://github.com/tq1/br-tqg-ios-public",
+  "license": {
+    "type": "Commercial"
+  },
+  "authors": {
+    "Taqtile": "felipe.sabino@taqtile.com"
+  },
+  "source": {
+    "git": "https://github.com/tq1/br-tqg-ios-public",
+    "tag": "1.3.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "vendored_frameworks": [
+    "TQGeolocationSDK/TQGeolocationSDK.framework",
+    "TQGeolocationSDK/FMDB.framework"
+  ],
+  "libraries": "sqlite3"
+}
