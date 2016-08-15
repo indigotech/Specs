@@ -17,6 +17,6 @@
   "source_files": "FeedbackViews/FeedbackViews/**/*.{h,m,swift}",
   "header_mappings_dir": "FeedbackViews/FeedbackViews",
   "dependencies": {
-    "Categories"
+    "TQTCategories"
   },
 }
