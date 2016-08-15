@@ -1,0 +1,22 @@
+{
+  "name": "TextFields",
+  "version": "0.7.0",
+  "summary": "Clean architecture for iOS projects",
+  "homepage": "https://github.com/indigotech/template-ios",
+  "license": {
+    "type": "Commercial"
+  },
+  "authors": {"Taqtile": "contato@taqtile.com"},
+  "source": {
+    "git": "https://github.com/indigotech/template-ios",
+    "tag": "0.7.0"
+  },
+  "platforms": {
+    "ios": "8.4"
+  },
+  "source_files": "TextFields/TextFields/**/*.{h,m,swift}",
+  "header_mappings_dir": "TextFields/TextFields",
+  "dependencies": {
+    "Categories"
+  },
+}

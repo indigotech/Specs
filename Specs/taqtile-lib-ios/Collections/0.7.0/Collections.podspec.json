@@ -1,0 +1,22 @@
+{
+  "name": "Collections",
+  "version": "0.7.0",
+  "summary": "Clean architecture for iOS projects",
+  "homepage": "https://github.com/indigotech/template-ios",
+  "license": {
+    "type": "Commercial"
+  },
+  "authors": {"Taqtile": "contato@taqtile.com"},
+  "source": {
+    "git": "https://github.com/indigotech/template-ios",
+    "tag": "0.7.0"
+  },
+  "platforms": {
+    "ios": "8.4"
+  },
+  "source_files": "Collections/Collections/**/*.{h,m,swift}",
+  "header_mappings_dir": "Collections/Collections",
+  "dependencies": {
+    "UIScrollView-InfiniteScroll":  "0.9.1"
+  },
+}
