@@ -17,6 +17,6 @@
   "source_files": "TextFields/TextFields/**/*.{h,m,swift}",
   "header_mappings_dir": "TextFields/TextFields",
   "dependencies": {
-    "TQTCategories"
-  },
+    "TQTCategories": []
+  }
 }

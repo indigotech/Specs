@@ -17,6 +17,6 @@
   "source_files": "Collections/Collections/**/*.{h,m,swift}",
   "header_mappings_dir": "Collections/Collections",
   "dependencies": {
-    "UIScrollView-InfiniteScroll":  "0.9.1"
-  },
+    "UIScrollView-InfiniteScroll":  ["0.9.1"]
+  }
 }

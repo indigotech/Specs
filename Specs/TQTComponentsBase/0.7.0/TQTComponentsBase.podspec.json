@@ -17,6 +17,6 @@
   "source_files": "ComponentsBase/ComponentsBase/**/*.{h,m,swift}",
   "header_mappings_dir": "ComponentsBase/ComponentsBase",
   "dependencies": {
-    "TQTCategories"
-  },
+    "TQTCategories": []
+  }
 }
