@@ -1,7 +1,7 @@
 {
-  "name": "Categories",
+  "name": "Collections",
   "version": "0.7.0",
-  "summary": "Clean archtecture for iOS projects",
+  "summary": "Clean architecture for iOS projects",
   "homepage": "https://github.com/indigotech/template-ios",
   "license": {
     "type": "Commercial"
@@ -14,6 +14,9 @@
   "platforms": {
     "ios": "8.4"
   },
-  "source_files": "Categories/Categories/**/*.{h,m,swift}",
-  "header_mappings_dir": "Categories/Categories"
+  "source_files": "Collections/Collections/**/*.{h,m,swift}",
+  "header_mappings_dir": "Collections/Collections",
+  "dependencies": {
+    "UIScrollView-InfiniteScroll":  "0.9.1"
+  },
 }

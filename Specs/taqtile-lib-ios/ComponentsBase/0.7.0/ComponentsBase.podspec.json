@@ -1,7 +1,7 @@
 {
   "name": "ComponentsBase",
   "version": "0.7.0",
-  "summary": "Clean archtecture for iOS projects",
+  "summary": "Clean architecture for iOS projects",
   "homepage": "https://github.com/indigotech/template-ios",
   "license": {
     "type": "Commercial"
@@ -15,5 +15,8 @@
     "ios": "8.4"
   },
   "source_files": "ComponentsBase/ComponentsBase/**/*.{h,m,swift}",
-  "header_mappings_dir": "ComponentsBase/ComponentsBase"
+  "header_mappings_dir": "ComponentsBase/ComponentsBase",
+  "dependencies": {
+    "Categories"
+  },
 }
