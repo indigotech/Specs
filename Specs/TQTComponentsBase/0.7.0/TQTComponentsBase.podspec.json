@@ -1,7 +1,7 @@
 {
-  "name": "CleanBase",
+  "name": "TQTComponentsBase",
   "version": "0.7.0",
-  "summary": "Clean archtecture for iOS projects",
+  "summary": "Clean architecture for iOS projects",
   "homepage": "https://github.com/indigotech/br-taqtile-lib-ios",
   "license": {
     "type": "Commercial"
@@ -14,6 +14,9 @@
   "platforms": {
     "ios": "8.4"
   },
-  "source_files": "CleanBase/CleanBase/**/*.{h,m,swift}",
-  "header_mappings_dir": "CleanBase/CleanBase"
+  "source_files": "ComponentsBase/ComponentsBase/**/*.{h,m,swift}",
+  "header_mappings_dir": "ComponentsBase/ComponentsBase",
+  "dependencies": {
+    "Categories"
+  },
 }

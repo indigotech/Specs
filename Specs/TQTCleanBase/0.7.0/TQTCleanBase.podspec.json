@@ -1,7 +1,7 @@
 {
-  "name": "FeedbackViews",
+  "name": "TQTCleanBase",
   "version": "0.7.0",
-  "summary": "Clean architecture for iOS projects",
+  "summary": "Clean archtecture for iOS projects",
   "homepage": "https://github.com/indigotech/br-taqtile-lib-ios",
   "license": {
     "type": "Commercial"
@@ -14,9 +14,6 @@
   "platforms": {
     "ios": "8.4"
   },
-  "source_files": "FeedbackViews/FeedbackViews/**/*.{h,m,swift}",
-  "header_mappings_dir": "FeedbackViews/FeedbackViews",
-  "dependencies": {
-    "Categories"
-  },
+  "source_files": "CleanBase/CleanBase/**/*.{h,m,swift}",
+  "header_mappings_dir": "CleanBase/CleanBase"
 }
