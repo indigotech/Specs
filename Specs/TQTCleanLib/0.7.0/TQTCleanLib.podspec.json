@@ -13,6 +13,7 @@
  		"git": "https://github.com/indigotech/br-taqtile-lib-ios.git",
  		"tag": "0.7.0"
  	},
+ 	"prefix_header_contents": "#import \"Categories.h\"",
  	"platforms": {
  		"ios": "8.4"
  	},
