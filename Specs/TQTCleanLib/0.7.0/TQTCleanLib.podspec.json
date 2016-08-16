@@ -1,0 +1,43 @@
+{
+  "name": "TQTCleanLib",
+  "version": "0.7.0",
+  "summary": "Clean archtecture for iOS projects",
+  "homepage": "https://github.com/indigotech/br-taqtile-lib-ios",
+  "license": {
+    "type": "Commercial"
+  },
+  "authors": {"Taqtile": "contato@taqtile.com"},
+  "subspecs": [
+    {
+      "name": "Categories",
+      "source_files": "Categories/Categories/**/*.{h,m,swift}",
+    },
+    {
+      "name": "Collections",
+      "source_files": "Collections/Collections/**/*.{h,m,swift}",
+    },
+    {
+      "name": "ComponentsBase",
+      "source_files": "ComponentsBase/ComponentsBase/**/*.{h,m,swift}",
+    },
+    {
+      "name": "FeedbackViews",
+      "source_files": "FeedbackViews/FeedbackViews/**/*.{h,m,swift}",
+    },
+    {
+      "name": "CleanBase",
+      "source_files": "CleanBase/CleanBase/**/*.{h,m,swift}",
+    },
+    {
+      "name": "TextFields",
+      "source_files": "TextFields/TextFields/**/*.{h,m,swift}",
+    },
+  ],
+  "source": {
+    "git": "https://github.com/indigotech/br-taqtile-lib-ios.git",
+    "tag": "0.7.0"
+  },
+  "platforms": {
+    "ios": "8.4"
+  },
+}
