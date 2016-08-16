@@ -8,7 +8,7 @@
   },
   "authors": {"Taqtile": "contato@taqtile.com"},
   "source": {
-    "git": "https://github.com/indigotech/br-taqtile-lib-ios",
+    "git": "https://github.com/indigotech/br-taqtile-lib-ios.git",
     "tag": "0.7.0"
   },
   "platforms": {
