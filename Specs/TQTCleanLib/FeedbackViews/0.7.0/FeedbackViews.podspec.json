@@ -1,5 +1,5 @@
 {
-  "name": "TQTCollections",
+  "name": "FeedbackViews",
   "version": "0.7.0",
   "summary": "Clean architecture for iOS projects",
   "homepage": "https://github.com/indigotech/br-taqtile-lib-ios",
@@ -14,9 +14,9 @@
   "platforms": {
     "ios": "8.4"
   },
-  "source_files": "Collections/Collections/**/*.{h,m,swift}",
-  "header_mappings_dir": "Collections/Collections",
+  "source_files": "FeedbackViews/FeedbackViews/**/*.{h,m,swift}",
+  "header_mappings_dir": "FeedbackViews/FeedbackViews",
   "dependencies": {
-    "UIScrollView-InfiniteScroll":  ["0.9.1"]
+    "TQTCategories": []
   }
 }
