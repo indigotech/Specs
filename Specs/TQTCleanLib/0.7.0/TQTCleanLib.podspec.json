@@ -21,18 +21,32 @@
  		"source_files": "Categories/Categories/**/*.{h,m,swift}"
  	}, {
  		"name": "Collections",
- 		"source_files": "Collections/Collections/**/*.{h,m,swift}"
+ 		"source_files": "Collections/Collections/**/*.{h,m,swift}",
+ 		"dependencies": {
+        "UIScrollView+InfiniteScroll": ["0.9.1"],
+        "TQTCleanLib/TextFields": [],
+        "TQTCleanLib/Categories": []
+ 		}
  	}, {
  		"name": "ComponentsBase",
- 		"source_files": "ComponentsBase/ComponentsBase/**/*.{h,m,swift}"
+ 		"source_files": "ComponentsBase/ComponentsBase/**/*.{h,m,swift}",
+ 		"dependencies": {
+       "TQTCleanLib/Categories": []
+ 		}
  	}, {
  		"name": "FeedbackViews",
- 		"source_files": "FeedbackViews/FeedbackViews/**/*.{h,m,swift}"
+ 		"source_files": "FeedbackViews/FeedbackViews/**/*.{h,m,swift}",
+ 		"dependencies": {
+     "TQTCleanLib/Categories": []
+ 		}
  	}, {
  		"name": "CleanBase",
  		"source_files": "CleanBase/CleanBase/**/*.{h,m,swift}"
  	}, {
  		"name": "TextFields",
- 		"source_files": "TextFields/TextFields/**/*.{h,m,swift}"
+ 		"source_files": "TextFields/TextFields/**/*.{h,m,swift}",
+ 		 		"dependencies": {
+       "TQTCleanLib/Categories": []
+ 		}
  	}]
  }
