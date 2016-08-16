@@ -23,7 +23,8 @@
  		"name": "Collections",
  		"source_files": "Collections/Collections/**/*.{h,m,swift}",
  		"dependencies": {
-        "UIScrollView+InfiniteScroll": ["0.9.1"],
+ 		     "Alamofire": [],
+        "UIScrollView+InfiniteScroll": [],
         "TQTCleanLib/TextFields": [],
         "TQTCleanLib/Categories": []
  		}
