@@ -1,7 +1,7 @@
 {
-  "name": "Categories",
-  "version": "0.7.0",
-  "summary": "Objective C Categories Framework.",
+  "name": "FeedbackViews",
+  "version": "0.7.1",
+  "summary": "NotificationView, PlaceholderView and LoadingView components Framework.",
   "homepage": "https://github.com/indigotech/br-taqtile-lib-ios",
   "license": {
     "type": "Comercial"
@@ -11,11 +11,14 @@
   },
   "source": {
     "git": "https://github.com/indigotech/br-taqtile-lib-ios.git",
-    "tag": "0.7.0"
+    "tag": "0.7.1"
   },
   "platforms": {
     "ios": "8.4"
   },
   "requires_arc": true,
-  "source_files": "Categories/Categories/**/*.{swift,m,h}"
+  "source_files": "FeedbackViews/FeedbackViews/**/*.{swift,m,h}",
+  "dependencies": {
+    "Categories": "~> 0.7.1"
+  }
 }
