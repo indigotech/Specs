@@ -1,7 +1,7 @@
 {
-  "name": "Categories",
+  "name": "Collections",
   "version": "0.7.0",
-  "summary": "Objective C Categories Framework.",
+  "summary": "Collections Framework.",
   "homepage": "https://github.com/indigotech/br-taqtile-lib-ios",
   "license": {
     "type": "Comercial"
@@ -17,5 +17,9 @@
     "ios": "8.4"
   },
   "requires_arc": true,
-  "source_files": "Categories/Categories/**/*.{swift,m,h}"
+  "source_files": "Collections/Collections/**/*.{swift,m,h}",
+  "dependencies": {
+    "Categories": "~> 0.7.0",
+    "TextFields": "~> 0.7.0"
+  }
 }
