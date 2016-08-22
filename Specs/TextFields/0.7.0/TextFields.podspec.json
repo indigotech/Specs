@@ -1,0 +1,22 @@
+{
+  "name": "TextFields",
+  "version": "0.7.0",
+  "summary": "Framework TextFields.",
+  "homepage": "https://github.com/indigotech/br-taqtile-lib-ios",
+  "license": {
+    "type": "Comercial"
+  },
+  "authors": ["Taqtile"],
+  "source": {
+    "git": "https://github.com/indigotech/br-taqtile-lib-ios.git",
+    "tag": "0.5.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "SDK/Source/**/*.{swift,m,h}",
+  "dependencies": {
+    "Categories": "~> 0.7.0"
+  }
+}
