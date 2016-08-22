@@ -15,7 +15,7 @@
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": "SDK/Source/**/*.{swift,m,h}",
+  "source_files": "TextFields/TextFields/**/*.{swift,m,h}",
   "dependencies": {
     "Categories": "~> 0.7.0"
   }
