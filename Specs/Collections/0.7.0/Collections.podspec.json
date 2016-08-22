@@ -20,6 +20,7 @@
   "source_files": "Collections/Collections/**/*.{swift,m,h}",
   "dependencies": {
     "Categories": "~> 0.7.0",
-    "TextFields": "~> 0.7.0"
-  }
+    "TextFields": "~> 0.7.0",
+    "UIScrollView-InfiniteScroll": "~> 0.9.1"
+    }
 }
