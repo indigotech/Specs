@@ -12,7 +12,7 @@
     "tag": "0.7.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "8.4"
   },
   "requires_arc": true,
   "source_files": "TextFields/TextFields/**/*.{swift,m,h}",
