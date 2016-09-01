@@ -17,7 +17,7 @@
     "ios": "8.4"
   },
   "requires_arc": true,
-  "source_files": ["Classes/ios/*.{h,m}", "MBDebugPanel/Classes/ios/{private,components}/*.{h,m}"],
+  "source_files": ["MBDebugPanel/Classes/ios/*.{h,m}", "MBDebugPanel/Classes/ios/{private,components}/*.{h,m}"],
   "resources": "MBDebugPanel/Assets/componentCells/*.xib",
   "private_header_files": "MBDebugPanel/Classes/ios/private/*.h"
 }
