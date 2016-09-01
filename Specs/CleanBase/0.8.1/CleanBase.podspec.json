@@ -1,0 +1,21 @@
+{
+  "name": "CleanBase",
+  "version": "0.8.1",
+  "summary": "CleanBase Framework.",
+  "homepage": "https://github.com/indigotech/br-taqtile-lib-ios",
+  "license": {
+    "type": "Comercial"
+  },
+  "authors": {
+    "Taqtile": "felipe.vasconcelos@taqtile.com"
+  },
+  "source": {
+    "git": "https://github.com/indigotech/br-taqtile-lib-ios.git",
+    "tag": "0.8.1"
+  },
+  "platforms": {
+    "ios": "8.4"
+  },
+  "requires_arc": true,
+  "source_files": "CleanBase/CleanBase/**/*.{swift,m,h}"
+}
