@@ -1,13 +1,13 @@
 {
-  "name": "Collections",
+  "name": "MBDebugPanel",
   "version": "0.9.0",
-  "summary": "Collections Framework.",
-  "homepage": "https://github.com/indigotech/br-taqtile-lib-ios",
+  "summary": "A painless, configurable, hidden panel to add shortcuts to run code, test features, or whatever you like.",
+  "homepage": "http://github.com/mindbody/MBDebugPanel.git",
   "license": {
-    "type": "Comercial"
+    "type": "MIT"
   },
   "authors": {
-    "Taqtile": "felipe.vasconcelos@taqtile.com"
+    "Matthew Holden": "matthew.holden@mindbodyonline.com"
   },
   "source": {
     "git": "https://github.com/indigotech/br-taqtile-lib-ios.git",
@@ -17,10 +17,7 @@
     "ios": "8.4"
   },
   "requires_arc": true,
-  "source_files": "Collections/Collections/**/*.{swift,m,h}",
-  "dependencies": {
-    "Categories": "~> 0.9.0",
-    "TextFields": "~> 0.9.0",
-    "UIScrollView-InfiniteScroll": "~> 0.9.1"
-    }
+  "source_files": ["Classes/ios/*.{h,m}", "Classes/ios/{private,components}/*.{h,m}"],
+  "resources": "Assets/componentCells/*.xib",
+  "private_header_files": "Classes/ios/private/*.h",
 }
