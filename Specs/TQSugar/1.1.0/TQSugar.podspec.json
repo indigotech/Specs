@@ -1,0 +1,28 @@
+{
+  "name": "TQSugar",
+  "version": "1.1.0",
+  "summary": "Taqtile Sugar lib",
+  "homepage": "https://github.com/indigotech/sugar",
+  "license": {
+    "type": "Comercial"
+  },
+  "authors": {
+    "Taqtile": "rafael.ring@taqtile.com"
+  },
+  "source": {
+    "git": "https://github.com/indigotech/sugar",
+    "tag": "iOS-1.1.0"
+  },
+  "platforms": {
+    "ios": "8.4"
+  },
+  "requires_arc": true,
+  "source_files": "TQSugar/*.h",
+  "vendored_library": "TQSugar/libTQSugar.a",
+  "library": "TQSugar",
+  "dependencies": {
+    "TQSwift": "~> 1.1.0",
+    "TQToffee": "~> 1.1.0"
+  },
+  "libraries": "xml2"
+}
