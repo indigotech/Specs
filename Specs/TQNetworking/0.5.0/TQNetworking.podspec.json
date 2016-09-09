@@ -1,0 +1,27 @@
+{
+  "name": "TQNetworking",
+  "version": "0.5.0",
+  "summary": "TQNetworking Framework.",
+  "homepage": "https://github.com/indigotech/br-taqtile-lib-networking",
+  "license": {
+    "type": "Comercial"
+  },
+  "authors": {
+    "Taqtile": "rafael.ring@taqtile.com"
+  },
+  "source": {
+    "git": "https://github.com/indigotech/br-taqtile-lib-networking",
+    "tag": "iOS-0.5.0"
+  },
+  "platforms": {
+    "ios": "8.4"
+  },
+  "requires_arc": true,
+  "source_files": "TQNetworking/*.h",
+  "vendored_library": "TQNetworking/libTQNetworking.a",
+  "library": "TQNetworking",
+  "dependencies": {
+    "TQSugar": "~> 1.1.0",
+    "TQToffee": "~> 1.1.0"
+  }
+}
