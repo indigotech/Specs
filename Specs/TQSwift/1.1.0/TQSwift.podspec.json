@@ -18,7 +18,7 @@
   },
   "requires_arc": true,
   "source_files": "TQSwift/*.h",
-  "vendored_library": "TQSwift/libTQSwift.a",
+  "vendored_libraries": "TQSwift/libTQSwift.a",
   "library": "TQSwift",
   "dependencies": {
     "TQToffee": "~> 1.1.0"

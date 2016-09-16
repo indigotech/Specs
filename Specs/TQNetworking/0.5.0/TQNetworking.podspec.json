@@ -18,7 +18,7 @@
   },
   "requires_arc": true,
   "source_files": "TQNetworking/*.h",
-  "vendored_library": "TQNetworking/libTQNetworking.a",
+  "vendored_libraries": "TQNetworking/libTQNetworking.a",
   "library": "TQNetworking",
   "dependencies": {
     "TQSugar": "~> 1.1.0",
