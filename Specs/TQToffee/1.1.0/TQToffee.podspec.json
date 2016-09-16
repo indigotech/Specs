@@ -18,6 +18,6 @@
   },
   "requires_arc": true,
   "source_files": "TQToffee/*.h",
-  "vendored_library": "TQToffee/libTQToffee.a",
+  "vendored_libraries": "TQToffee/libTQToffee.a",
   "library": "TQToffee"
 }

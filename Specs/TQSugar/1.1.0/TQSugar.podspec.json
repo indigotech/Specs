@@ -18,7 +18,7 @@
   },
   "requires_arc": true,
   "source_files": "TQSugar/*.h",
-  "vendored_library": "TQSugar/libTQSugar.a",
+  "vendored_libraries": "TQSugar/libTQSugar.a",
   "library": "TQSugar",
   "dependencies": {
     "TQSwift": "~> 1.1.0",
