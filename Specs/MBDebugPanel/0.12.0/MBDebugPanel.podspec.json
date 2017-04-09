@@ -1,0 +1,23 @@
+{
+  "name": "MBDebugPanel",
+  "version": "0.12.0",
+  "summary": "A painless, configurable, hidden panel to add shortcuts to run code, test features, or whatever you like.",
+  "homepage": "http://github.com/mindbody/MBDebugPanel.git",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Matthew Holden": "matthew.holden@mindbodyonline.com"
+  },
+  "source": {
+    "git": "https://github.com/indigotech/br-taqtile-lib-ios.git",
+    "tag": "0.12.0"
+  },
+  "platforms": {
+    "ios": "8.4"
+  },
+  "requires_arc": true,
+  "source_files": ["MBDebugPanel/Classes/ios/*.{h,m}", "MBDebugPanel/Classes/ios/{private,components}/*.{h,m}"],
+  "resources": "MBDebugPanel/Assets/componentCells/*.xib",
+  "private_header_files": "MBDebugPanel/Classes/ios/private/*.h"
+}
