@@ -1,0 +1,31 @@
+{
+  "name": "MultiplusAPI",
+  "version": "2.6.0",
+  "summary": "API Multiplus for iOS",
+  "description": "Contains all iPhone and iPad content for Multiplus project",
+  "homepage": "https://github.com/indigotech/br-multiplus-participante_api-ios",
+  "license": {
+    "type": "Commercial"
+  },
+  "authors": {"Taqtile": "contato@taqtile.com"},
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/indigotech/br-multiplus-participante_api-ios",
+    "tag": "2.6.0"
+  },
+  "requires_arc": true,
+  "dependencies": {
+    "JSONKit-NoWarning": [
+      "1.2"
+    ],
+    "AFNetworking": [
+      "2.5.3"
+    ],
+    "OpenSSL": [
+      "1.0.208"
+    ]
+  },
+  "source_files": "src/**/*.{h,m}"
+}
