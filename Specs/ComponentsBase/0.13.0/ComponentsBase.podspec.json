@@ -1,6 +1,6 @@
 {
     "name": "ComponentsBase",
-    "version": "0.13.0-alpha.3",
+    "version": "0.13.0",
     "summary": "ComponentsBase Framework.",
     "homepage": "https://github.com/indigotech/br-taqtile-lib-ios",
     "license": {
@@ -11,7 +11,7 @@
     },
     "source": {
       "git": "https://github.com/indigotech/br-taqtile-lib-ios.git",
-      "tag": "0.13.0-alpha.3"
+      "tag": "0.13.0"
     },
     "platforms": {
       "ios": "8.4"
@@ -19,7 +19,7 @@
     "requires_arc": true,
     "source_files": "ComponentsBase/ComponentsBase/**/*.{swift,m,h}",
     "dependencies": {
-      "Categories": "~> 0.13.0-alpha.3"
+      "Categories": "~> 0.13.0"
     }
   }
   
