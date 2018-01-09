@@ -1,0 +1,27 @@
+{
+    "name": "Collections",
+    "version": "0.13.0-alpha.3",
+    "summary": "Collections Framework.",
+    "homepage": "https://github.com/indigotech/br-taqtile-lib-ios",
+    "license": {
+      "type": "Comercial"
+    },
+    "authors": {
+      "Taqtile": "felipe.vasconcelos@taqtile.com"
+    },
+    "source": {
+      "git": "https://github.com/indigotech/br-taqtile-lib-ios.git",
+      "tag": "0.13.0-alpha.3"
+    },
+    "platforms": {
+      "ios": "8.4"
+    },
+    "requires_arc": true,
+    "source_files": "Collections/Collections/**/*.{swift,m,h}",
+    "dependencies": {
+      "Categories": "~> 0.13.0-alpha.3",
+      "TextFields": "~> 0.13.0-alpha.3",
+      "UIScrollView-InfiniteScroll": "~> 0.9.1"
+      }
+  }
+  
